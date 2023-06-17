@@ -1,6 +1,6 @@
 #INFORMATION KERNEL
 link_kernel=https://github.com/viviz-kernel-Devices/kernel_realme_even
-name_zip=Viviz-Kernel
+name_zip=Viviz-Kernel-Custom
 local_version=-VivizX-Custom✴
 kbuild_user=ismasrull
 kbuild_host=AndroidTermux
