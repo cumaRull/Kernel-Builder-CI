@@ -1,7 +1,7 @@
 #INFORMATION KERNEL
 link_kernel=https://github.com/physwizz/m127f-T-u4
 name_zip=Exynos 850
-local_version=-exynos-
+local_version=-exynos-850
 kbuild_user=ismasrull
 kbuild_host=memek
 device_name=<b>realme C25/C25s</b> (even)
