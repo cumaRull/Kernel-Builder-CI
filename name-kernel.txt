@@ -1,18 +1,18 @@
 #INFORMATION KERNEL
-link_kernel=https://github.com/Rem01Gaming/liquid_kernel_realme_even
-name_zip=Liquid-318
-local_version=-Liquid-Custom✴☪️
+link_kernel=https://github.com/physwizz/m127f-T-u4
+name_zip=exinos850
+local_version=-exynos850-kernel
 kbuild_user=ismasrull
 kbuild_host=AndroidTermux
-device_name=<b>realme C25/C25s</b> (even)
-vendor_name=RUI2
+device_name=m12
+vendor_name=samsung
 
 #OPTION FOR COMPILER
-defconfig_name=even_defconfig
+defconfig_name=physwizz_defconfig
   #just for incase for slmk
 
 #INFORMATION LINK COMPILER
-link_gcc_aarch64=https://github.com/EternalX-project/aarch64-linux-gnu.git
+link_gcc_aarch64=https://github.com/physwizz/aarch64-linux-android-4.9.git
 link_gcc_arm=https://github.com/EternalX-project/arm-linux-gnueabi.git
-link_clang=https://github.com/SayuZX/android_prebuilts_clang_host_linux-x86_clang-r437112.git
+link_clang=https://github.com/physwizz/toolchains-for-exynos-850.git
 link_anykernel=https://github.com/TheUnknownName/AnyKernel3.git -b even-liq
