@@ -1,14 +1,14 @@
 #INFORMATION KERNEL
-link_kernel=https://github.com/viviz-kernel-Devices/kernel_realme_even
-name_zip=Viviz-Kernel
-local_version=-VivizX-Custom✴
-kbuild_user=ismasrull
+link_kernel=https://github.com/Rem01Gaming/liquid_kernel_realme_even
+name_zip=Liquidfy-
+local_version=-Liquidfy｡◕‿◕｡
+kbuild_user=ismasrull⚡
 kbuild_host=AndroidTermux
 device_name=<b>realme C25/C25s</b> (even)
 vendor_name=even
 
 #OPTION FOR COMPILER
-defconfig_name=even_defconfig
+defconfig_name=even_slmk_defconfig
   #just for incase for slmk
 
 #INFORMATION LINK COMPILER
