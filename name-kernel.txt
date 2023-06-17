@@ -6,8 +6,8 @@ kbuild_user=ismasrull
 kbuild_host=memek
 device_name=<b>realme C25/C25s</b> (even)
 vendor_name=RUI2
-anykernel=https://github.com/TheUnknownName/AnyKernel3.git -b even-liq
-#OPTION FOR COMPILER
+
+#OPTION FOR COMPILE
 defconfig_name=even_slmk_defconfig
   #just for incase for slmk
 
@@ -16,4 +16,4 @@ defconfig_name=even_slmk_defconfig
 link_gcc_aarch64=https://github.com/EternalX-project/aarch64-linux-gnu.git
 link_gcc_arm=https://github.com/EternalX-project/arm-linux-gnueabi.git
 link_clang=https://github.com/SayuZX/android_prebuilts_clang_host_linux-x86_clang-r437112.git
-link_anykernel="$anykernel"
+link_anykernel=https://github.com/TheUnknownName/AnyKernel3.git -b even-liq
