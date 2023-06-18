@@ -1,13 +1,13 @@
 #INFORMATION KERNEL
-link_kernel=https://github.com/cumaRull/m127f-T-u4
+link_kernel=https://github.com/cumaRull/kernel_oplus_even
 name_zip=AxelGT-Mobs
-local_version=-AxelGT-For M127f
+local_version=-AxelGT｡◕‿◕｡
 kbuild_user=ismasrull
 kbuild_host=memek
 device_name=<b>realme C25/C25s</b> (even)
 vendor_name=m127f
 #OPTION FOR COMPILER
-defconfig_name=physwizz_defconfig
+defconfig_name=even_defconfig
   #just for incase for slmk
 
 
