@@ -1,13 +1,13 @@
 #INFORMATION KERNEL
-link_kernel=https://github.com/Rem01Gaming/liquid_kernel_realme_even
-name_zip=Liquid-318-slmk
-local_version=-liquidfy✨️
+link_kernel=https://github.com/cumaRull/m127f-T-u4
+name_zip=AxelGT-Mobs
+local_version=-AxelGT-For M127f
 kbuild_user=ismasrull
 kbuild_host=memek
 device_name=<b>realme C25/C25s</b> (even)
-vendor_name=RUI2
+vendor_name=m127f
 #OPTION FOR COMPILER
-defconfig_name=even_slmk_defconfig
+defconfig_name=physwizz_defconfig
   #just for incase for slmk
 
 
