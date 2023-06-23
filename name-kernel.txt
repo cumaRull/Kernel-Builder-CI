@@ -1,11 +1,11 @@
 #INFORMATION KERNEL
-link_kernel=https://github.com/cumaRull/kernel_oplus_even
+link_kernel=https://github.com/Rem01Gaming/kernel_oplus_even
 name_zip=AxelGT-Mobs
 local_version=-AxelGT｡◕‿◕｡
 kbuild_user=ismasrull
-kbuild_host=maskuh
+kbuild_host=rull
 device_name=<b>realme C25/C25s</b> (even)
-vendor_name=m127f
+vendor_name=realme
 #OPTION FOR COMPILER
 defconfig_name=even_defconfig
   #just for incase for slmk
