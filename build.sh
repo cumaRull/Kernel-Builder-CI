@@ -143,7 +143,6 @@ compile() {
 
 zipping() {
   cd ~/AnyKernel
-  echo $NAME_KERNEL > name_kernel.txt
   zip -r9 ${NAME_KERNEL}-${VENDOR_NAME}-${TANGGAL}.zip *
   cd ..
 }
