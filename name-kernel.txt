@@ -1,5 +1,5 @@
 #INFORMATION KERNEL
-link_kernel=https://github.com/Rem01Gaming/kernel_oplus_even
+link_kernel=https://github.com/Rem01Gaming/liquid_kernel_realme_even
 name_zip=Liquidfy
 local_version=-Liquidfy
 kbuild_user=ismasrull
