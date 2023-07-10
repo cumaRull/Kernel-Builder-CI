@@ -1,11 +1,11 @@
 #INFORMATION KERNEL
 link_kernel=https://github.com/Rem01Gaming/kernel_oplus_even
-name_zip=AxelGT-Mobs
-local_version=-AxelGT｡◕‿◕｡
+name_zip=Liquidfy
+local_version=-Liquidfy
 kbuild_user=ismasrull
-kbuild_host=rull
+kbuild_host=is?
 device_name=<b>realme C25/C25s</b> (even)
-vendor_name=realme
+vendor_name=realme-lily
 #OPTION FOR COMPILER
 defconfig_name=even_defconfig
   #just for incase for slmk
@@ -15,4 +15,4 @@ defconfig_name=even_defconfig
 link_gcc_aarch64=https://github.com/EternalX-project/aarch64-linux-gnu.git
 link_gcc_arm=https://github.com/EternalX-project/arm-linux-gnueabi.git
 link_clang=https://github.com/SayuZX/android_prebuilts_clang_host_linux-x86_clang-r437112.git
-link_anykernel=https://github.com/TheUnknownName/AnyKernel3.git -b even-liq
+link_anykernel=https://github.com/TheUnknownName/AnyKernel3.git -b even
