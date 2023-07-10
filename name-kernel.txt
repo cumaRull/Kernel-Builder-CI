@@ -3,9 +3,9 @@ link_kernel=https://github.com/Rem01Gaming/kernel_oplus_even
 name_zip=Liquidfy
 local_version=-Liquidfy
 kbuild_user=ismasrull
-kbuild_host=is?
+kbuild_host=ismasrull?
 device_name=<b>realme C25/C25s</b> (even)
-vendor_name=realme-lily
+vendor_name=realme
 #OPTION FOR COMPILER
 defconfig_name=even_defconfig
   #just for incase for slmk
