@@ -1,9 +1,9 @@
 #INFORMATION KERNEL
 link_kernel=https://github.com/Rem01Gaming/liquid_kernel_realme_even
 name_zip=Liquidfy
-local_version=-Liquidfy
+local_version=⚡️
 kbuild_user=ismasrull
-kbuild_host=ismasrull?
+kbuild_host=rullvps
 device_name=<b>realme C25/C25s</b> (even)
 vendor_name=realme
 #OPTION FOR COMPILER
