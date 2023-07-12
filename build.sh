@@ -132,7 +132,7 @@ compile() {
   make -j$(nproc --all) O=out \
     ARCH=arm64 \
     CC="clang" \
-    CLANG_TRIPLE=aarch64-linux-gnu- \
+    CLANG_TRIPLE=aarch64-elf- \
     CROSS_COMPILE="${PWD}/gcc-arm64/bin/aarch64-elf-" \
     CROSS_COMPILE_ARM32="${PWD}/aarch32-gcc/bin/arm-linux-gnueabihf-" \
     CONFIG_NO_ERROR_ON_MISMATCH=y \
