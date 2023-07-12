@@ -133,7 +133,7 @@ compile() {
     ARCH=arm64 \
     CC="clang" \
     CLANG_TRIPLE=aarch64-linux-gnu- \
-    CROSS_COMPILE="${PWD}/aarch64-gcc/bin/aarch64-linux-gnu-" \
+    CROSS_COMPILE="${PWD}/gcc-arm64/bin/aarch64-elf-" \
     CROSS_COMPILE_ARM32="${PWD}/aarch32-gcc/bin/arm-linux-gnueabihf-" \
     CONFIG_NO_ERROR_ON_MISMATCH=y \
     V=0 $DEFCONFIG_FLAG
