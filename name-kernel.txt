@@ -1,10 +1,10 @@
 #INFORMATION KERNEL
-link_kernel=https://github.com/realme-kernel-opensource/realme_C25_C25s_narzo-50A-AndroidT-kernel-source
+link_kernel=https://github.com/Rem01Gaming/android_kernel_realme_even
 name_zip=EvenT
 local_version=-@ismasrull
 kbuild_user=ismasrull
 kbuild_host=rullvps
-device_name=<b>realme C25/C25s</b> (lily)
+device_name=<b>realme C25/C25s</b> (even)
 vendor_name=realme
 #OPTION FOR COMPILER
 defconfig_name=gki_defconfig
