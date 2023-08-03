@@ -1,6 +1,6 @@
 #INFORMATION KERNEL
 link_kernel=https://github.com/Rem01Gaming/kernel_oplus_even
-name_zip=EvenT
+name_zip=EvenS
 local_version=-@ismasrull
 kbuild_user=ismasrull
 kbuild_host=ismasrull-CI
@@ -13,6 +13,6 @@ defconfig_name=even_defconfig
 
 #INFORMATION LINK COMPILER
 link_gcc_aarch64=https://gitlab.com/Panchajanya1999/azure-clang.git
-link_gcc_arm=https://github.com/EternalX-project/arm-linux-gnueabi.git
+link_gcc_arm=https://gitlab.com/Panchajanya1999/azure-clang.git
 link_clang=https://github.com/SayuZX/prebuilts_clang_host_linux-x86_clang-6443078.git
 link_anykernel=https://github.com/TheUnknownName/AnyKernel3.git -b even
