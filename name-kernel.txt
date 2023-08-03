@@ -3,7 +3,7 @@ link_kernel=https://github.com/Rem01Gaming/android_kernel_realme_even
 name_zip=EvenT
 local_version=-@ismasrull
 kbuild_user=ismasrull
-kbuild_host=rullvps
+kbuild_host=ismasrull-CI
 device_name=<b>realme C25/C25s</b> (even)
 vendor_name=realme
 #OPTION FOR COMPILER
