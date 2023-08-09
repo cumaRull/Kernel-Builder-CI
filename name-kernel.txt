@@ -1,13 +1,13 @@
 #INFORMATION KERNEL
-link_kernel=https://github.com/Rem01Gaming/kernel_oplus_even
-name_zip=EvenS
+link_kernel=https://github.com/SpacingBat3/android_kernel_samsung-m127f_a13
+name_zip=M127F
 local_version=-@ismasrull
 kbuild_user=ismasrull
 kbuild_host=ismasrull-CI
-device_name=<b>realme C25/C25s</b> (even)
-vendor_name=realme
+device_name=samsung-m12
+vendor_name=samsung
 #OPTION FOR COMPILER
-defconfig_name=even_defconfig
+defconfig_name=exynos850-m12nsxx_defconfig
   #just for incase for slmk
 
 
