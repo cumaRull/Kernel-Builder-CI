@@ -1,14 +1,14 @@
 #INFORMATION KERNEL
 link_script=build.sh
-link_kernel=https://github.com/Rem01Gaming/liquid_kernel_realme_even
-name_zip=realme-even
+link_kernel=https://github.com/SpacingBat3/android_kernel_samsung-m127f_a13
+name_zip=samsung-m12
 local_version=-@ismasrull
 kbuild_user=ismasrull
 kbuild_host=ismasrull-CI
-device_name=even
-vendor_name=realme
+device_name=M127F
+vendor_name=samsung
 #OPTION FOR COMPILER
-defconfig_name=even_defconfig
+defconfig_name=exynos850-m12nsxx-spacingbat3_defconfig
   #just for incase for slmk
 
 
@@ -17,4 +17,4 @@ defconfig_name=even_defconfig
 #link_gcc_arm=https://gitlab.com/Panchajanya1999/azure-clang.git
 #link_clang=https://github.com/SayuZX/prebuilts_clang_host_linux-x86_clang-6443078.git
 link_anykernel=https://github.com/TheUnknownName/AnyKernel3.git -b even
-link_toolchains=
+link_toolchains=https://github.com/SpacingBat3/toolchains-for-exynos-850.git
