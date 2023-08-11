@@ -51,7 +51,7 @@ clone_git() {
  # git clone --depth=1 $LINK_GCC_AARCH64 aarch64-gcc
  # git clone --depth=1 $LINK_GCC_ARM aarch32-gcc
  # toolchains
- git clone --depth=1 $LINK_TOOLCHAINS aarch64-gcc toolchains
+ git clone --depth=1 $LINK_TOOLCHAINS toolchains
 }
 
 cleaning_cache() {
