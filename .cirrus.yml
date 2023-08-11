@@ -6,7 +6,6 @@ env:
 task:
   name: "KERNEL BUILD CI by RullV2"
   skip: $CIRRUS_BRANCH == 'master'
-
   timeout_in: 120m
   container:
       image: ubuntu
@@ -23,5 +22,5 @@ task:
 
   build_script:
       - wget https://raw.githubusercontent.com/cumaRull/Kernel-Builder-CI/master/build.sh
-      - chmod +x build.sh
-      - ./build.sh ${CIRRUS_WORKING_DIR}/name-kernel.txt
+      - chmod +x $link_script
+      - ./$link_script ${CIRRUS_WORKING_DIR}/name-kernel.txt
