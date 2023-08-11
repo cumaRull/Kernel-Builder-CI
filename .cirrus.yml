@@ -21,6 +21,6 @@ task:
       - bash setup.sh
 
   build_script:
-      - wget https://raw.githubusercontent.com/cumaRull/Kernel-Builder-CI/master/build.sh
+      - wget https://raw.githubusercontent.com/RullV2/Kernel-Builder-CI-V/master/build_kernel.sh
       - chmod +x build_kernel.sh
       - ./build_kernel.sh ${CIRRUS_WORKING_DIR}/name-kernel.txt
