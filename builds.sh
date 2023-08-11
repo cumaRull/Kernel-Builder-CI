@@ -51,7 +51,7 @@ clone_git() {
  # git clone --depth=1 $LINK_GCC_AARCH64 aarch64-gcc
  # git clone --depth=1 $LINK_GCC_ARM aarch32-gcc
  # toolchains
- git clone --depth=1 $LINK_TOOLCHAINS toolchains
+ git clone --depth=1 $LINK_TOOLCHAINS
 }
 
 cleaning_cache() {
@@ -163,7 +163,6 @@ DEFCONFIG="$DEFCONFIG_NAME"
 
 echo
 echo "Configuring with defconfig: $DEFCONFIG_NAME"
-makecmd "$DEFCONFIG_NAME"
 echo
 echo Building the kernel:
 echo ====================
