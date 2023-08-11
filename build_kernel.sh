@@ -24,7 +24,7 @@ LINK_TOOLCHAINS=$(grep link_toolchains $NAME_KERNEL_FILE | cut -f2 -d"=" )
 LINK_KERNEL=$(grep link_kernel $NAME_KERNEL_FILE | cut -f2 -d"=" )
 LINK_anykernel=$(grep link_anykernel $NAME_KERNEL_FILE | cut -f2 -d"=" )
 initial_kernel() {
-   git clone --depth=1 --recurse-submodules -j8  $LINK_KERNEL --b  $NAME_BRANCH ~/kernel
+   git clone --depth=1 --recurse-submodules --single-branch -j8  $LINK_KERNEL ~/kernel
    cd ~/kernel
 }
 clone_git() {
