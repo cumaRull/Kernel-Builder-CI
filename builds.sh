@@ -150,11 +150,11 @@ export KBUILD_BUILD_HOST=SM_M127F
 export KBUILD_BUILD_TIMESTAMP="$(date -Ru${SOURCE_DATE_EPOCH:+d @$SOURCE_DATE_EPOCH})"
 
 # GCC toolchain
-export CROSS_COMPILE="$ANDROID_TOOLCHAINS/aarch64-linux-android-4.9/bin/aarch64-linux-android-"
+export CROSS_COMPILE="{PWD}/aarch64-linux-android-4.9/bin/aarch64-linux-android-"
 # CLANG toolchain
-export CLANG_PATH="$ANDROID_TOOLCHAINS/android_prebuilts_clang_host_linux-x86_clang-5484270-9.0/bin/"
+export CLANG_PATH="{PWD}/android_prebuilts_clang_host_linux-x86_clang-5484270-9.0/bin/"
 # CLANG_TRIPLE toolchain
-export CLANG_TRIPLE="$ANDROID_TOOLCHAINS/proton-clang-13-clang/bin/aarch64-linux-gnu-"
+export CLANG_TRIPLE="{PWD}/proton-clang-13-clang/bin/aarch64-linux-gnu-"
 
 unset ANDROID_TOOLCHAINS
 
