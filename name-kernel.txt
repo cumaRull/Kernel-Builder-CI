@@ -7,6 +7,7 @@ kbuild_user=ismasrull
 kbuild_host=ismasrull-CI
 device_name=M127F
 vendor_name=samsung
+name_branch=4.19.111-samsung
 #OPTION FOR COMPILER
 defconfig_name=exynos850-m12nsxx-spacingbat3_defconfig
   #just for incase for slmk
