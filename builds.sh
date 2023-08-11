@@ -136,7 +136,7 @@ compile() {
  if [ -z "$ANDROID_TOOLCHAINS" ]
 then
 	# physwizz toolchain path
-	ANDROID_TOOLCHAINS="toolchains"
+	ANDROID_TOOLCHAINS=""
 fi
 
 export PLATFORM_VERSION=13
