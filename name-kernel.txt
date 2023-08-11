@@ -1,4 +1,5 @@
 #INFORMATION KERNEL
+link_script=build.sh
 link_kernel=https://github.com/Rem01Gaming/liquid_kernel_realme_even
 name_zip=realme-even
 local_version=-@ismasrull
