@@ -82,7 +82,7 @@ sendinfo() {
     -d chat_id="$chat_id" \
     -d "disable_web_page_preview=true" \
     -d "parse_mode=html" \
-    -d text="<b>$NAME_KERNEL</b>%0A| USING DEFCONFIG <b>$DEFCONFIG_NAME</b> |%0ABuild started on <code>CirrusCI</code>%0AFor device ${DEVICE_NAME} %0A | Build By <b>$KBUILD_BUILD_USER</b> %0A| Local Version: $LOCALVERSION | %0A branch <code>$(git rev-parse --abbrev-ref HEAD)</code> (master)%0AUnder commit <code>$(git log --pretty=format:'"%h : %s"' -1)</code>%0AUsing compiler: <code>$(~/kernel/clang/bin/clang --version | head -n 1 | perl -pe 's/\(http.*?\)//gs' | sed -e 's/ */ /g')</code>%0AStarted on <code>$(date)</code>%0A<b>Build Status:</b> Beta"
+    -d text="<b>$NAME_KERNEL</b>%0A| USING DEFCONFIG <b>$DEFCONFIG_NAME</b> |%0ABuild started on <code>CirrusCI</code>%0AFor device ${DEVICE_NAME} %0A | Build By <b>$KBUILD_BUILD_USER</b> %0A| Local Version: $LOCALVERSION | %0A branch <code>$(git rev-parse --abbrev-ref HEAD)</code> (master)%0AUnder commit <code>$(git log --pretty=format:'"%h : %s"' -1)</code>%0AUsing compiler: %0AStarted on <code>$(date)</code>%0A<b>Build Status:</b> Beta"
 }
 
 push() {
