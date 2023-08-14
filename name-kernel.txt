@@ -1,21 +1,21 @@
 #INFORMATION KERNEL
-link_script=build.sh
-link_kernel=https://github.com/SpacingBat3/android_kernel_samsung-m127f_a13
-name_zip=samsung-m12
+#link_script=build.sh
+link_kernel=https://github.com/Rem01Gaming/liquid_kernel_realme_even
+name_zip=realme_even
 local_version=-@ismasrull
 kbuild_user=ismasrull
 kbuild_host=ismasrull-CI
-device_name=M127F
-vendor_name=samsung
-name_branch=4.19.111-samsung
+device_name=realme
+vendor_name=realme
+#name_branch=4.19.111-samsung
 #OPTION FOR COMPILER
-defconfig_name=exynos850-m12nsxx-spacingbat3_defconfig
+defconfig_name=even_defconfig
   #just for incase for slmk
 
 
 #INFORMATION LINK COMPILER
-#link_gcc_aarch64=https://gitlab.com/Panchajanya1999/azure-clang.git
-#link_gcc_arm=https://gitlab.com/Panchajanya1999/azure-clang.git
-#link_clang=https://github.com/SayuZX/prebuilts_clang_host_linux-x86_clang-6443078.git
+link_gcc_aarch64=https://gitlab.com/Panchajanya1999/azure-clang.git
+link_gcc_arm=https://gitlab.com/Panchajanya1999/azure-clang.git
+link_clang=https://github.com/SayuZX/prebuilts_clang_host_linux-x86_clang-6443078.git
 link_anykernel=https://github.com/TheUnknownName/AnyKernel3.git -b even
-link_toolchains=https://github.com/SpacingBat3/toolchains-for-exynos-850.git
+#link_toolchains=https://github.com/SpacingBat3/toolchains-for-exynos-850.git
