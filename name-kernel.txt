@@ -17,5 +17,5 @@ defconfig_name=even_defconfig
 link_gcc_aarch64=https://github.com/Kry9toN/clang.git
 link_gcc_arm=https://github.com/Kry9toN/clang.git
 link_clang=https://gitlab.com/havoc-devices/android_prebuilts_clang_host_linux-x86_clang-r437112.git
-link_anykernel=https://github.com/TheUnknownName/AnyKernel3.git -b even
+link_anykernel=https://github.com/RullV2/AnyKernel3.git -b master
 #link_toolchains=https://github.com/SpacingBat3/toolchains-for-exynos-850.git
