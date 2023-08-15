@@ -6,7 +6,7 @@ env:
 task:
   name: "KERNEL BUILD CI by RullV2"
   skip: $CIRRUS_BRANCH == 'master'
-  timeout_in: 120m
+  timeout_in: 160m
   container:
       image: ubuntu
       privileged: true
