@@ -2,9 +2,9 @@
 #link_script=build.sh
 link_kernel=https://github.com/RullV2/liquid_kernel_realme_even
 name_zip=realme_even_bomb_version
-local_version=-Liquidfy
+local_version=-@ismasrull-bomb
 kbuild_user=ismasrull
-kbuild_host=termux-Build-@ismasrull
+kbuild_host=Build by @ismasrull
 device_name=realme
 vendor_name=realme
 #name_branch=4.19.111-samsung
