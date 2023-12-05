@@ -1,8 +1,8 @@
 #INFORMATION KERNEL
 #link_script=build.sh
-link_kernel=https://github.com/RullV2/liquid_kernel_realme_even
+link_kernel=https://github.com/liquidprjkt/liquid_kernel_realme_even
 name_zip=realme_even_bomb_version
-local_version=-@ismasrull-bomb
+local_version=-new-version
 kbuild_user=ismasrull
 kbuild_host=Build by @ismasrull
 device_name=realme
