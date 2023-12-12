@@ -7,10 +7,31 @@ NAME_KERNEL_FILE="$1"
 chat_id="$TG_CHAT"
 token="6118183207:AAEr_wwQkj1qGLTfeBYcLP9C1bBlgJ3xDwc"
 
+
+#swap memory
+dd if=/dev/zero of=/swapfile bs=1M count=1024
+
+# Mengubah hak akses file swap
+chmod 600 /swapfile
+
+# Mengformat file swap
+mkswap /swapfile
+
+# Mengaktifkan swap
+swapon /swapfile
+
+# Menambahkan konfigurasi swap ke /etc/fstab agar tetap aktif setelah reboot
+echo '/swapfile none swap sw 0 0' | tee -a /etc/fstab
+
+# Menampilkan informasi swap
+swapon --show
+
+
 #INFROMATION NAME KERNEL
 export KBUILD_BUILD_USER=$(grep kbuild_user $NAME_KERNEL_FILE | cut -f2 -d"=" )
 export KBUILD_BUILD_HOST=$(grep kbuild_host $NAME_KERNEL_FILE | cut -f2 -d"=" )
 export LOCALVERSION=$(grep local_version $NAME_KERNEL_FILE | cut -f2 -d"=" )
+export KBUILD_BUILD_TIMESTAMP=$(date -Ru${SOURCE_DATE_EPOCH:+d @$SOURCE_DATE_EPOCH}) 
 NAME_KERNEL=$(grep name_zip $NAME_KERNEL_FILE | cut -f2 -d"=" )
 VENDOR_NAME=$(grep vendor_name $NAME_KERNEL_FILE | cut -f2 -d"=" )
 DEVICE_NAME=$(grep device_name $NAME_KERNEL_FILE | cut -f2 -d"=" )
