@@ -1,5 +1,4 @@
 #INFORMATION KERNEL
-#link_script=build.sh
 link_kernel=https://github.com/liquidprjkt/liquid_kernel_realme_even
 name_zip=realme_even_bomb_version
 local_version=-new-version
